@@ -134,7 +134,7 @@ Thank you for your understanding.
 
 ## Hiring
 
-- 📣 We are looking for highly motivated students to join us as interns to create more intelligent AI together. Please contact caxu@microsoft.com
+- &#x1F4E3; We are looking for highly motivated students to join us as interns to create more intelligent AI together. Please contact caxu@microsoft.com
 
 <!-- Although on our **complexity-balanced test set**, **WizardLM-7B has more cases that are preferred by human labelers than ChatGPT** in the high-complexity instructions (difficulty level >= 8), it still lags behind ChatGPT on the entire test set, and we also consider WizardLM to still be in a **baby state**. This repository will **continue to improve WizardLM**, train on larger scales, add more training data, and innovate more advanced large-model training methods. -->
 
@@ -245,7 +245,5 @@ The resources, including code, data, and model weights, associated with this pro
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=nlpxucan/WizardLM&type=Timeline)](https://star-history.com/#nlpxucan/WizardLM&Timeline)
-
-Related project: [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 
 Related project: [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
