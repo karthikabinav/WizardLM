@@ -23,9 +23,9 @@
 
 Thanks to the enthusiastic friends, their video introductions are more lively and interesting.
 1. [NEW WizardLM 70b 🔥 Giant Model...Insane Performance](https://www.youtube.com/watch?v=WdpiIXrO4_o)
-2. [GET WizardLM NOW! 7B LLM KING That Can Beat ChatGPT! I’m IMPRESSED!](https://www.youtube.com/watch?v=SaJ8wyKMBds)
+2. [GET WizardLM NOW! 7B LLM KING That Can Beat ChatGPT! I'm IMPRESSED!](https://www.youtube.com/watch?v=SaJ8wyKMBds)
 3. [WizardLM: Enhancing Large Language Models to Follow Complex Instructions](https://www.youtube.com/watch?v=I6sER-qivYk)
-4. [WizardCoder AI Is The NEW ChatGPT’s Coding TWIN!](https://www.youtube.com/watch?v=XjsyHrmd3Xo)
+4. [WizardCoder AI Is The NEW ChatGPT's Coding TWIN!](https://www.youtube.com/watch?v=XjsyHrmd3Xo)
 
 ## News
 
@@ -127,7 +127,7 @@ Please cite the paper if you refer to our model or code or data or paper from Wi
 
 ❗To commen concern about dataset:
 
-Recently, there have been clear changes in the open-source policy and regulations of our overall organization’s code, data, and models.
+Recently, there have been clear changes in the open-source policy and regulations of our overall organization's code, data, and models.
 Despite this, we have still worked hard to obtain opening the weights of the model first, but the data involves stricter auditing and is in review with our legal team .
 Our researchers have no authority to publicly release them without authorization.
 Thank you for your understanding.
@@ -146,7 +146,7 @@ To obtain results **identical to our demo**, please strictly follow the prompts 
 <b>For WizardLM</b>, the Prompt should be as following:
 
 ```
-A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user’s questions. USER: Hi ASSISTANT: Hello.</s>USER: Who are you? ASSISTANT: I am WizardLM.</s>......
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Hi ASSISTANT: Hello.</s>USER: Who are you? ASSISTANT: I am WizardLM.</s>......
 ```
 
 <b>For WizardCoder </b>, the Prompt should be as following:
@@ -168,7 +168,7 @@ A chat between a curious user and an artificial intelligence assistant. The assi
 
 
 ```
-"Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response: Let’s think step by step."
+"Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response: Let's think step by step."
 ```
 
 ### GPT-4 automatic evaluation
@@ -188,7 +188,7 @@ The following figure compares WizardLM-30B and ChatGPT’s skill on Evol-Instruc
 
 ### WizardLM performance on NLP foundation tasks.
 
-The following table provides a comparison of WizardLMs and other LLMs on NLP foundation tasks. The results indicate that WizardLMs consistently exhibit superior performance in comparison to the LLaMa models of the same size. Furthermore, our WizardLM-30B model showcases comparable performance to OpenAI’s Text-davinci-003 on the MMLU and HellaSwag benchmarks.
+The following table provides a comparison of WizardLMs and other LLMs on NLP foundation tasks. The results indicate that WizardLMs consistently exhibit superior performance in comparison to the LLaMa models of the same size. Furthermore, our WizardLM-30B model showcases comparable performance to OpenAI's Text-davinci-003 on the MMLU and HellaSwag benchmarks.
 
 | Model            | MMLU 5-shot | ARC 25-shot | TruthfulQA 0-shot | HellaSwag 10-shot | Average    |
 |------------------|-------------|-------------|-------------------|-------------------|------------|
@@ -201,7 +201,7 @@ The following table provides a comparison of WizardLMs and other LLMs on NLP fou
 
 ### WizardLM performance on code generation.
 
-The following table provides a comprehensive comparison of WizardLMs and several other LLMs on the code generation task, namely HumanEval. The evaluation metric is pass@1. The results indicate that WizardLMs consistently exhibit superior performance in comparison to the LLaMa models of the same size. Furthermore, our WizardLM-30B model surpasses StarCoder and OpenAI’s code-cushman-001. Moreover, our Code LLM, WizardCoder, demonstrates exceptional performance, achieving a pass@1 score of 57.3, surpassing the open-source SOTA by approximately 20 points.
+The following table provides a comprehensive comparison of WizardLMs and several other LLMs on the code generation task, namely HumanEval. The evaluation metric is pass@1. The results indicate that WizardLMs consistently exhibit superior performance in comparison to the LLaMa models of the same size. Furthermore, our WizardLM-30B model surpasses StarCoder and OpenAI's code-cushman-001. Moreover, our Code LLM, WizardCoder, demonstrates exceptional performance, achieving a pass@1 score of 57.3, surpassing the open-source SOTA by approximately 20 points.
 
 
 | Model            | HumanEval Pass@1 |
@@ -246,5 +246,4 @@ The resources, including code, data, and model weights, associated with this pro
 
 [![Star History Chart](https://api.star-history.com/svg?repos=nlpxucan/WizardLM&type=Timeline)](https://star-history.com/#nlpxucan/WizardLM&Timeline)
 
-Related project: [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 Related project: [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
