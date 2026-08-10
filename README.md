@@ -32,4 +32,3 @@ Thanks to the enthusiastic friends, their video introductions are more lively an
 - 🔥🔥🔥[2024/01/04] We released **WizardCoder-33B-V1.1**
 
 Related project: [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
-Related project: [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
