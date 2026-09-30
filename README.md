@@ -90,39 +90,14 @@ Thanks to the enthusiastic friends, their video introductions are more lively an
 
 Please cite the paper if you use the data or code from WizardLM.
 
-```
-@inproceedings{
-xu2024wizardlm,
-title={Wizard{LM}: Empowering Large Pre-Trained Language Models to Follow Complex Instructions},
-author={Can Xu and Qingfeng Sun and Kai Zheng and Xiubo Geng and Pu Zhao and Jiazhan Feng and Chongyang Tao and Qingwei Lin and Daxin Jiang},
-booktitle={The Twelfth International Conference on Learning Representations},
-year={2024},
-url={https://openreview.net/forum?id=CfXh93NDgH}
-}
-```
+
 Please cite the paper if you use the data or code from WizardCoder.
 
-```
-@inproceedings{
-luo2024wizardcoder,
-title={WizardCoder: Empowering Code Large Language Models with Evol-Instruct},
-author={Ziyang Luo and Can Xu and Pu Zhao and Qingfeng Sun and Xiubo Geng and Wenxiang Hu and Chongyang Tao and Jing Ma and Qingwei Lin and Daxin Jiang},
-booktitle={The Twelfth International Conference on Learning Representations},
-year={2024},
-url={https://openreview.net/forum?id=UnUwSIgK5W}
-}
-```
+
 
 Please cite the paper if you refer to our model or code or data or paper from WizardMath.
 
-```
-@article{luo2023wizardmath,
-  title={Wizardmath: Empowering mathematical reasoning for large language models via reinforced evol-instruct},
-  author={Luo, Haipeng and Sun, Qingfeng and Xu, Can and Zhao, Pu and Lou, Jianguang and Tao, Chongyang and Geng, Xiubo and Lin, Qingwei and Chen, Shifeng and Zhang, Dongmei},
-  journal={arXiv preprint arXiv:2308.09583},
-  year={2023}
-}
-```
+
 
 
 ❗To commen concern about dataset:
@@ -145,31 +120,23 @@ To obtain results **identical to our demo**, please strictly follow the prompts 
 
 <b>For WizardLM</b>, the Prompt should be as following:
 
-```
-A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Hi ASSISTANT: Hello.</s>USER: Who are you? ASSISTANT: I am WizardLM.</s>......
-```
+
 
 <b>For WizardCoder </b>, the Prompt should be as following:
 
-```
-"Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response:"
-```
+
 
 <b>For WizardMath</b>, the Prompts should be as following:
 
 **Default version:**
 
-```
-"Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response:"
-```
+
 
 
 **CoT Version:** （❗For the **simple** math questions, we do NOT recommend to use the CoT prompt.） 
 
 
-```
-"Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response: Let's think step by step."
-```
+
 
 ### GPT-4 automatic evaluation
 
